@@ -1,4 +1,4 @@
-baseURL = "https://auttogram.com.br"
+baseURL = "http://pt.brasilmaisdigital.com.br"
 languageCode = "pt"
 DefaultContentLanguage = "pt"
 title = "Auttogram"
@@ -10,10 +10,10 @@ theme = "auttogram"
 [languages]
   [languages.pt]
     languageName = "Português"
-    # baseURL = "https://gallant-thompson-129e79.netlify.com"
+    baseURL = "http://pt.brasilmaisdigital.com.br"
     title = "Auttogram em PT"
 
   [languages.en]
     languageName = "English"
-    # baseURL = "https://youthful-curran-dfb0c3.netlify.com"
+    baseURL = "http://en.brasilmaisdigital.com.br"
     title = "Auttogram em EN"
