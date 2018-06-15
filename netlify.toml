@@ -10,3 +10,8 @@ command = "hugo"
   to = "/pt"
   status = 302
   conditions = { Language = ["pt"] }
+
+  from = "/"
+  to = "/en"
+  status = 302
+  conditions = { Language = ["en"] }
