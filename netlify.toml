@@ -7,4 +7,6 @@ command = "hugo"
 
 [[redirects]]
   from = "/"
-  to = "/pt 302 Country=br"
+  to = "/pt"
+  status = 302
+  conditions = { Language = ["pt"] }
