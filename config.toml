@@ -11,9 +11,9 @@ theme = "auttogram"
   [languages.pt]
     languageName = "Português"
     baseURL = "http://pt.brasilmaisdigital.com.br"
-    title = "Auttogram em PT"
+    title = "Auttogram"
 
   [languages.en]
     languageName = "English"
     baseURL = "http://en.brasilmaisdigital.com.br"
-    title = "Auttogram em EN"
+    title = "Auttogram"

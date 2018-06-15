@@ -1,2 +1,154 @@
-[homeTitle]
-  other = "Automation for Instagram"
+#
+#
+# Default
+#
+#
+
+[learnMore]
+  other = "Learn More"
+
+[downloadButton]
+  other = "Download Now!"
+
+[signature]
+  other = "Developed by"
+
+#
+#
+# Home
+#
+#
+
+# Home - Module 1 - Header
+
+[homeTitle1]
+  other = "Automation"
+
+[homeTitle2]
+  other = "for Instagram"
+
+[homeSubTitle]
+  other = "Give superpowers to your Instagram profile!"
+
+# Home - Module 2 - Features
+
+[homeFeaturedHeader1]
+  other = "The smartest and most secure way to"
+
+[homeFeaturedHeader2]
+  other = "earn engaged and targeted followers"
+
+[homeFeaturedItem1Title]
+  other = "Save time"
+
+[homeFeaturedItem1]
+  other = "Automate the interactions you want to make and leave the rest with Auttogram."
+
+[homeFeaturedItem2Title]
+  other = "Targeted Followers"
+
+[homeFeaturedItem2]
+  other = "Only interact with people who are interested in your Instagram profile."
+
+[homeFeaturedItem3Title]
+  other = "Best value for money"
+
+[homeFeaturedItem3]
+  other = "Achieve excellent results for only $9.90/month for each profile."
+
+# Home - Module 3 - Automations
+
+[homeAutomationNutritionTitle]
+  other = "Automation of Nutrition"
+
+[homeAutomationNutrition]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+[homeAutomationLikeTitle]
+  other = "Automation of Likes"
+
+[homeAutomationLike]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+[homeAutomationFollowTitle]
+  other = "Automation of Follow"
+
+[homeAutomationFollow]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+[homeAutomationWelcomeTitle]
+  other = "Automation of DM"
+
+[homeAutomationWelcome]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+[homeAutomationCommentTitle]
+  other = "Automation of Comments"
+
+[homeAutomationComment]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+[homeAutomationUnfollowTitle]
+  other = "Automation of Unfollow"
+
+[homeAutomationUnfollow]
+  other = "Here comes a description that I still need to write, so I'm putting anything like this just to fill the sausage itself. Maybe this is the best size for the text, but I do not know if we'll have enough creativity to fill it all."
+
+# Home - Module 4 - Pricing
+
+[homePricingTitle1]
+  other = "Single plan,"
+
+[homePricingTitle2]
+  other = "with 3 days free trial"
+
+[homePricingBoxTitle1]
+  other = "Each profile"
+
+[homePricingBoxCurrency]
+  other = "$"
+
+[homePricingBoxPrice]
+  other = "9.90"
+
+[homePricingBoxTitle2]
+  other = "a month"
+
+[homePricingBoxItem1]
+  other = "Periodic updates"
+
+[homePricingBoxItem2]
+  other = "Automation of Likes"
+
+[homePricingBoxItem3]
+  other = "Automation of Follow"
+
+[homePricingBoxItem4]
+  other = "Automation of Comments"
+
+[homePricingBoxItem5]
+  other = "Automation of Unfollow"
+
+[homePricingBoxItem6]
+  other = "Automation of Nutrition"
+
+[homePricingBoxItem7]
+  other = "DM Auto Send"
+
+[homePricingBoxItem8]
+  other = "Filter by hashtag, profile and location"
+
+[homePricingBoxItem9]
+  other = "Suporte Online"
+
+[homePricingBoxItem10]
+  other = "Reports"
+
+[homeHelpCenterTitle]
+  other = "Needing help?"
+
+[homeHelpCenter]
+  other = "Go to our Help Center now and learn about Automation for Instagram."
+
+[homeHelpCenterButton]
+  other = "Go to Help Center"
