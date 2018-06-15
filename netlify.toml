@@ -6,5 +6,5 @@ command = "hugo"
   HUGO_VERSION = "0.41"
 
 [[redirects]]
-  from = "/"
-  to = "/pt"
+  from = "/*"
+  to = "/pt/:splat 200!"
