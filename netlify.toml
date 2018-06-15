@@ -6,5 +6,5 @@ command = "hugo"
   HUGO_VERSION = "0.41"
 
 [[redirects]]
-  from = "https://gallant-thompson-129e79.netlify.com/*"
-  to = "https://gallant-thompson-129e79.netlify.com/pt/:splat 301!"
+  from = "/*"
+  to = "/pt/:splat 301!"
