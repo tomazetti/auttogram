@@ -11,6 +11,7 @@ command = "hugo"
   status = 302
   conditions = { Language = ["pt"] }
 
+[[redirects]]
   from = "/"
   to = "/en"
   status = 302
