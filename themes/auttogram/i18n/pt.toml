@@ -1,0 +1,154 @@
+#
+#
+# Default
+#
+#
+
+[learnMore]
+  other = "Saiba mais"
+
+[downloadButton]
+  other = "Fazer Download"
+
+[signature]
+  other = "Um projeto da"
+
+#
+#
+# Home
+#
+#
+
+# Home - Module 1 - Header
+
+[homeTitle1]
+  other = "Automação"
+
+[homeTitle2]
+  other = "para Instagram"
+
+[homeSubTitle]
+  other = "Dê superpoderes ao seu perfil no Instagram!"
+
+# Home - Module 2 - Features
+
+[homeFeaturedHeader1]
+  other = "O modo mais inteligente e seguro de"
+
+[homeFeaturedHeader2]
+  other = "ganhar seguidores engajados e segmentados"
+
+[homeFeaturedItem1Title]
+  other = "Ganhe tempo"
+
+[homeFeaturedItem1]
+  other = "Automatize as interações que deseja fazer e deixe o resto com o Auttogram."
+
+[homeFeaturedItem2Title]
+  other = "Seguidores segmentados"
+
+[homeFeaturedItem2]
+  other = "Interaja apenas com as pessoas que interessam para seu perfil no Instagram."
+
+[homeFeaturedItem3Title]
+  other = "Melhor custo-benefício"
+
+[homeFeaturedItem3]
+  other = "Alcance excelentes resultados por apenas R$ 9,90/mês para cada perfil."
+
+# Home - Module 3 - Automations
+
+[homeAutomationNutritionTitle]
+  other = "Automação de Nutrição"
+
+[homeAutomationNutrition]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+[homeAutomationLikeTitle]
+  other = "Automação de Curtir"
+
+[homeAutomationLike]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+[homeAutomationFollowTitle]
+  other = "Automação de Seguir"
+
+[homeAutomationFollow]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+[homeAutomationWelcomeTitle]
+  other = "Automação de Boas Vindas"
+
+[homeAutomationWelcome]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+[homeAutomationCommentTitle]
+  other = "Automação de Comentar"
+
+[homeAutomationComment]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+[homeAutomationUnfollowTitle]
+  other = "Automação de Desseguir"
+
+[homeAutomationUnfollow]
+  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+
+# Home - Module 4 - Pricing
+
+[homePricingTitle1]
+  other = "Plano único,"
+
+[homePricingTitle2]
+  other = "com 3 dias de teste grátis"
+
+[homePricingBoxTitle1]
+  other = "Cada perfil"
+
+[homePricingBoxCurrency]
+  other = "R$"
+
+[homePricingBoxPrice]
+  other = "9,90"
+
+[homePricingBoxTitle2]
+  other = "por mês"
+
+[homePricingBoxItem1]
+  other = "Atualizações periódicas"
+
+[homePricingBoxItem2]
+  other = "Automação de curtir"
+
+[homePricingBoxItem3]
+  other = "Automação de seguir"
+
+[homePricingBoxItem4]
+  other = "Automação de comentar"
+
+[homePricingBoxItem5]
+  other = "Automação de desseguir"
+
+[homePricingBoxItem6]
+  other = "Automação de Nutrição"
+
+[homePricingBoxItem7]
+  other = "Envio automático de DM"
+
+[homePricingBoxItem8]
+  other = "Filtro por hashtag, perfil e localização"
+
+[homePricingBoxItem9]
+  other = "Suporte Online"
+
+[homePricingBoxItem10]
+  other = "Relatórios"
+
+[homeHelpCenterTitle]
+  other = "Com dúvidas?"
+
+[homeHelpCenter]
+  other = "Acesse agora nossa Central de Ajuda e saiba tudo sobre Automação para Instagram."
+
+[homeHelpCenterButton]
+  other = "Acessar Central de Ajuda"

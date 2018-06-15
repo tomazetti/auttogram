@@ -1,0 +1,19 @@
+baseURL = "http://auttogram.com"
+languageCode = "pt"
+DefaultContentLanguage = "pt"
+title = "Auttogram"
+theme = "auttogram"
+
+[params]
+  tagline = "Automação para Instagram"
+
+[languages]
+  [languages.pt]
+    languageName = "Português"
+    baseURL = "https://auttogram.com.br"
+    title = "Meu título"
+
+  [languages.en]
+    languageName = "English"
+    baseURL = "https://auttogram.com"
+    title = "My Title"
