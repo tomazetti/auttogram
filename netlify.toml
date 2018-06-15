@@ -7,4 +7,4 @@ command = "hugo"
 
 [[redirects]]
   from = "/"
-  to = "/pt/:splat 301!"
+  to = "/pt"
