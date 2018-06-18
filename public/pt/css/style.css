@@ -338,6 +338,7 @@ a:hover {
 	border-radius: 6px;
 	margin-bottom: 50px;
 	transition: all 0.3s ease-in-out;
+	min-height: 737px !important;
 }
 .quest-text1:hover {
 	border-top: 6px solid #2c0c35;
@@ -664,7 +665,8 @@ a:hover {
 }
 .line {
 	line-height: 38px;
-	font-size: 18px
+	font-size: 18px;
+	min-height: 418px;
 }
 .testimonial .slick-dots li button {
 	background-color: #d6d3df!important;
@@ -1261,7 +1263,7 @@ MOD: TIMELINE SPLIT
 }
 .right-text h4 {
 	font-size: 22px;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 	color: #575971;
 }
 

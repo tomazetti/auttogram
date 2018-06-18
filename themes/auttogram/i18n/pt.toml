@@ -62,39 +62,71 @@
   other = "Automação de Nutrição"
 
 [homeAutomationNutrition]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "A Automação de Nutrição realiza, de forma automática, ações como visualizar stories, curtir comentários e publicações das pessoas que te seguem. Isso ajuda a manter seus seguidores sempre \"por perto\" e engajados."
 
 [homeAutomationLikeTitle]
   other = "Automação de Curtir"
 
 [homeAutomationLike]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "Com a Automação de Curtir você interage com publicações realmente relevantes para o seu perfil. Você poder curtir automaticamente publicações segmentadas por hashtag, pela localização e pode também curtir todas publicações de pessoas que seguem determinado usuário."
 
 [homeAutomationFollowTitle]
   other = "Automação de Seguir"
 
 [homeAutomationFollow]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "A automação de seguir é, provavelmente, a mais efetiva se você quer ganhar novos seguidores. Ela possibilita que você siga pessoas automaticamente de acordo com suas preferências. Isso faz com que muitos te notem e queiram seguir de volta."
 
 [homeAutomationWelcomeTitle]
-  other = "Automação de Boas Vindas"
+  other = "Automação de Boas-Vindas"
 
 [homeAutomationWelcome]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "A automação de boas-vindas te ajuda a recepcionar seus novos seguidores. Quando é ativada, envia mensagens diretas configuradas por você aos usuários que começarem a te seguir. Assim você se apresenta, amplia sua rede de contatos e fica mais próximo de quem se interessa pelo seu perfil."
 
 [homeAutomationCommentTitle]
   other = "Automação de Comentar"
 
 [homeAutomationComment]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "Comentários mostram seu poder de interação e podem abrir mais espaço para amplicar a presença do seu perfil no Instagram. Com a ativação dessa automação, você comenta publicações automaticamente de acordo com suas definições."
 
 [homeAutomationUnfollowTitle]
   other = "Automação de Desseguir"
 
 [homeAutomationUnfollow]
-  other = "Aqui vem uma descrição que eu ainda preciso escrever, por isso eu tô colocando qualquer coisa assim só pra encher linguiça mesmo. Talvez esse seja o melhor tamanho para o texto, mas não sei se teremos criatividade suficiente pra encher isso tudo."
+  other = "A Automação de Desseguir mantém limpa a lista de perfis que você está seguindo. Com ela você pode, por exemplo, deixar de seguir perfis que não te seguem de volta ou apenas desseguir aqueles que foram seguidos pela Automação de Seguir."
 
 # Home - Module 4 - Pricing
+
+[homeTestimonialsHeader1]
+  other = "O que os usuários"
+
+[homeTestimonialsHeader2]
+  other = "falam sobre o Auttogram"
+
+[homeTestimonial1]
+  other = "O Auttogram se tornou uma ferramenta indispensável para o crescimento do meu Instagram, permitindo ampliar meus seguidores e a divulgação do meu trabalho."
+
+[homeTestimonial1Name]
+  other = "Léo Rodrigues - Fotógrafo Profissional"
+
+[homeTestimonial2]
+  other = "O Auttogram é, de longe, a melhor plataforma de automatizações que já testei! Com um suporte incrível e funções bem ajustadas, consigo desempenhar meu trabalho nas redes sociais de maneira bem mais coerente e bem-sucedida! Recomendo, com certeza!"
+
+[homeTestimonial2Name]
+  other = "Mazheo - Influenciador Digital e Social Media Freelancer"
+
+[homeTestimonial3]
+  other = "A solução perfeita para nossos clientes, suporte preciso e atendimento impecável. Sem dúvidas a melhor plataforma do segmento."
+
+[homeTestimonial3Name]
+  other = "Tiago Henrique - Agência Toad"
+
+[homeTestimonial4]
+  other = "Sem sombra de duvidas uma das melhores plataformas que já usei! Eles pensam na usabilidade de quem usa e o diferencial são antenados na tendencias e mudanças constante que o Instagram vem sofrendo! Recomendo de Olhos fechados!"
+
+[homeTestimonial4Name]
+  other = "Leandro Artur - Estrategista em Social Media - Trilhos Comunicação"
+
+# Home - Module 5 - Pricing
 
 [homePricingTitle1]
   other = "Plano único,"
