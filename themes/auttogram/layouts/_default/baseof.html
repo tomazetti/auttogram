@@ -1,90 +1,131 @@
 <!DOCTYPE html>
 <html lang="{{.Site.LanguageCode}}">
 
-  <head>
+<head>
 
-      <title>{{.Site.Title}} | {{.Site.Params.tagline}}</title>
+  <title>{{.Site.Title}} | {{.Site.Params.tagline}}</title>
 
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link href="css/style.css" rel="stylesheet">
-      <link href="css/responsive.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/slick.css">
-      <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
 
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-   </head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
 
-   <body>
-      <header class="navigation  main-navigation">
-         <nav class="navbar navbar-custom navbar-fixed-top">
-            <div class="container text-center">
-               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<body>
+  <header class="navigation  main-navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="container text-center">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="/image/logo.png" alt="{{ .Site.Title }}"></a>
-               </div>
-               <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav menu-left">
-                     <li><a href="/">Início</a></li>
-                     <li><a href="#funcionalidades">Funcionalidades</a></li>
-                     <li><a href="https://auttogram.zendesk.com/hc/">Central de Ajuda</a></li>
-                     <li><a href="#preco">Preços</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right button-right">
-                     <li><a href="#">{{ i18n "downloadButton" }}</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </header>
+          <a class="navbar-brand" href="#"><img src="/image/logo.png" alt="{{ .Site.Title }}"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav menu-left">
+            <li><a href="/">Início</a></li>
+            <li><a href="#funcionalidades">Funcionalidades</a></li>
+            <li><a href="https://auttogram.zendesk.com/hc/">Central de Ajuda</a></li>
+            <li><a href="#preco">Preços</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right button-right">
+            <li><a data-toggle="modal" data-target="#download-overlay" >{{ i18n "downloadButton" }}</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-      {{ block "main" .}} {{end}}
+  {{ block "main" .}} {{end}}
 
-      <footer class="footer-bottom">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6 col-sm-6">
-                  <div  class="footer-logo-text">
-                     <img src="/image/logo.png" alt="{{ .Site.Title }}">
-                  </div>
-               </div>
-               <div class="col-md-6 col-sm-6">
-                  <div class="main-3-section text-right">
-                     <ul>
-                        <li class="facebook-icon"><a href="https://fb.com/auttogram"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                        <li class="instagram-icon"><a href="https://instagram.com/auttogram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="clear-fix"></div>
-               <div class="col-md-12 col-sm-12">
-                  <hr class="hraing1">
-                  <div class="footer-bottom1">
-                     <p>{{ i18n "signature" }} <a href="http://cbstartups.com.br"> Companhia Brasileira de Startups</a></p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
+  <footer class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-logo-text">
+            <img src="/image/logo.png" alt="{{ .Site.Title }}">
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="main-3-section text-right">
+            <ul>
+              <li class="facebook-icon"><a href="https://fb.com/auttogram"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="instagram-icon"><a href="https://instagram.com/auttogram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+        <div class="col-md-12 col-sm-12">
+          <hr class="hraing1">
+          <div class="footer-bottom1">
+            <p>{{ i18n "signature" }} <a href="http://cbstartups.com.br"> Companhia Brasileira de Startups</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-      <!--jQuery-->
-      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-       <!--Bootstrap-->
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <!--wow js-->
-      <script src="js/wow.js"></script>
-      <!--Slick-->
-      <script src="/js/slick.js"></script>
-       <!--Custom js-->
-      <script src="/js/custom.js"></script>
+  <div id="download-overlay" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="download-overlay" aria-hidden="true">
+    <div class="modal-content modal-dialog">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Fechar</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">Baixar o Auttogram</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-xs-6">
+            <p class="lead text-center">Windows</p>
+            <ul class="list-unstyled" style="line-height: 2">
+              <li class="text-center">Requisitos Mínimos</li>
+              <li>Intel® Core™ 2 Duo ou </li>
+              <li>AMD Athlon™ 64 X2 5600+</li>
+              <li>Windows 7</li>
+              <li>Memória 2GB de RAM</li>
+              <li>5GB de espaço disponível em disco</li>
+              <li>Conexão com internet banda larga</li>
+              <li>Resolução 1280x1024</li>
+            </ul>
+            <p><a href="https://auttogram.com.br/download/auttogram.exe" class="btn btn-block button">Baixar</a></p>
+          </div>
+          <div class="col-xs-6">
+            <p class="lead text-center">Mac</p>
+            <ul class="list-unstyled" style="line-height: 2">
+              <li class="text-center">Requisitos Mínimos</li>
+              <li>Intel® Core™ 2 Duo</li>
+              <li>OS X® 10.11</li>
+              <li>Memória de 4GB de RAM</li>
+              <li>5GB de espaço disponível em disco</li>
+              <li>Conexão com internet banda larga</li>
+              <li>Resolução 1280x768</li>
+              <li>&nbsp;</li>
+            </ul>
+            <p><a href="https://auttogram.com.br/download/auttogram.dmg" class="btn btn-block button">Baixar</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-   </body>
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!--Bootstrap-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--wow js-->
+  <script src="js/wow.js"></script>
+  <!--Slick-->
+  <script src="/js/slick.js"></script>
+  <!--Custom js-->
+  <script src="/js/custom.js"></script>
+
+</body>
 
 </html>
