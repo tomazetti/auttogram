@@ -1,3 +1,24 @@
+#myCarousel .carousel-inner .item img {
+	width: 100%;
+}
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.nav-pills>li[data-slide-to="0"].active a { background-color: #552761; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #552761; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #552761; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #552761; }
+
 /*------------------------------------------------------------------
     Template Name:	Sooper
     Template URI:
@@ -112,7 +133,7 @@ iframe {
 	transition: 0.4s;
 }
 .navigation .navbar {
-	padding: 35px 0px;
+	/* padding: 35px 0px; */
 }
 .navigation .navbar-brand {
 	height: auto;
@@ -804,7 +825,9 @@ a:hover {
 	font-size: 20px;
 }
 .main-navigation .navbar-custom {
-	background-color: #f5f4f8!important;
+	background-color: #f5f4f8 !important;
+	/* background-color: red !important; */
+	height: 90px !important;
 }
 .main-navigation .menu-left li a:hover {
 	color: #2c0c35;

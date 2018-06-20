@@ -106,25 +106,37 @@
   other = "O Auttogram se tornou uma ferramenta indispensável para o crescimento do meu Instagram, permitindo ampliar meus seguidores e a divulgação do meu trabalho."
 
 [homeTestimonial1Name]
-  other = "Léo Rodrigues - Fotógrafo Profissional"
+  other = "Léo Rodrigues"
+
+[homeTestimonial1Function]
+  other = "Fotógrafo Profissional"
 
 [homeTestimonial2]
   other = "O Auttogram é, de longe, a melhor plataforma de automatizações que já testei! Com um suporte incrível e funções bem ajustadas, consigo desempenhar meu trabalho nas redes sociais de maneira bem mais coerente e bem-sucedida! Recomendo, com certeza!"
 
 [homeTestimonial2Name]
-  other = "Mazheo - Influenciador Digital e Social Media Freelancer"
+  other = "Mazheo"
+
+[homeTestimonial2Function]
+  other = "Influenciador Digital"
 
 [homeTestimonial3]
   other = "A solução perfeita para nossos clientes, suporte preciso e atendimento impecável. Sem dúvidas a melhor plataforma do segmento."
 
 [homeTestimonial3Name]
-  other = "Tiago Henrique - Agência Toad"
+  other = "Tiago Henrique"
+
+[homeTestimonial3Function]
+  other = "Agência Toad"
 
 [homeTestimonial4]
   other = "Sem sombra de duvidas uma das melhores plataformas que já usei! Eles pensam na usabilidade de quem usa e o diferencial são antenados na tendencias e mudanças constante que o Instagram vem sofrendo! Recomendo de Olhos fechados!"
 
 [homeTestimonial4Name]
-  other = "Leandro Artur - Estrategista em Social Media - Trilhos Comunicação"
+  other = "Leandro Artur"
+
+[homeTestimonial4Function]
+  other = "Estrategista em Social Media"
 
 # Home - Module 5 - Pricing
 
