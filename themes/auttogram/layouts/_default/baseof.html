@@ -24,10 +24,26 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav menu-left">
-            <li><a href="/">Início</a></li>
-            <li><a href="#funcionalidades">Funcionalidades</a></li>
-            <li><a href="https://auttogram.zendesk.com/hc/">Central de Ajuda</a></li>
-            <li><a href="#preco">Preços</a></li>
+            <li><a href="/">{{ i18n "menuHome" }}</a></li>
+            <li><a href="#{{ i18n "menuFeatures" }}">{{ i18n "menuFeatures" }}</a></li>
+            <li><a href="https://auttogram.zendesk.com/hc/">{{ i18n "menuHelp" }}</a></li>
+            <li><a href="#{{ i18n "menuPricing" }}">{{ i18n "menuPricing" }}</a></li>
+
+            {{ if .IsTranslated }}
+            <li class="dropdown active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  {{.Language.LanguageName}}
+                  <span class="caret"></span>
+                </a>
+
+                <ul class="dropdown-menu">
+                  {{ range .Translations }}
+                  <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                  {{ end}}
+                </ul>
+             </li>
+             {{ end }}
+
           </ul>
           <ul class="nav navbar-nav navbar-right button-right">
             <li><a href="#" data-toggle="modal" data-target="#download" >{{ i18n "downloadButton" }}</a></li>
@@ -69,38 +85,38 @@
   <div id="download" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="download" aria-hidden="true">
     <div class="modal-content modal-dialog">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Fechar</span></button>
-        <h4 class="modal-title text-center" id="myModalLabel">Baixar o Auttogram</h4>
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">{{ i18n "close" }}</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">{{ i18n "downloadTitle" }}</h4>
       </div>
       <div class="modal-body">
         <div class="row">
-          <div class="col-xs-6">
-            <p class="lead text-center">Windows</p>
+          <div class="col-xs-6" style="border-right: #d2d0d0;border-right-width: 2px;border-right-style: solid;">
+            <p class="lead text-center">{{ i18n "downloadRequirementsW" }}</p>
             <ul class="list-unstyled" style="line-height: 2">
-              <li class="text-center">Requisitos Mínimos</li>
-              <li>Intel® Core™ 2 Duo ou </li>
-              <li>AMD Athlon™ 64 X2 5600+</li>
-              <li>Windows 7</li>
-              <li>Memória 2GB de RAM</li>
-              <li>5GB de espaço disponível em disco</li>
-              <li>Conexão com internet banda larga</li>
-              <li>Resolução 1280x1024</li>
+              <li class="text-center">{{ i18n "downloadRequirements" }}</li>
+              <li>{{ i18n "downloadRequirementsW1" }}</li>
+              <li>{{ i18n "downloadRequirementsW2" }}</li>
+              <li>{{ i18n "downloadRequirementsW3" }}</li>
+              <li>{{ i18n "downloadRequirementsW4" }}</li>
+              <li>{{ i18n "downloadRequirementsW5" }}</li>
+              <li>{{ i18n "downloadRequirementsW6" }}</li>
+              <li>{{ i18n "downloadRequirementsW7" }}</li>
             </ul>
-            <p><a href="https://auttogram.com.br/download/auttogram.exe" class="btn btn-block button">Baixar</a></p>
+            <p><a href="https://auttogram.com.br/download/auttogram.exe" class="btn btn-block button"> <i class="fab fa-windows"></i> {{ i18n "downloadButton" }}</a></p>
           </div>
           <div class="col-xs-6">
-            <p class="lead text-center">Mac</p>
+            <p class="lead text-center">{{ i18n "downloadRequirementsM" }}</p>
             <ul class="list-unstyled" style="line-height: 2">
-              <li class="text-center">Requisitos Mínimos</li>
-              <li>Intel® Core™ 2 Duo</li>
-              <li>OS X® 10.11</li>
-              <li>Memória de 4GB de RAM</li>
-              <li>5GB de espaço disponível em disco</li>
-              <li>Conexão com internet banda larga</li>
-              <li>Resolução 1280x768</li>
+              <li class="text-center">{{ i18n "downloadRequirements" }}</li>
+              <li>{{ i18n "downloadRequirementsM1" }}</li>
+              <li>{{ i18n "downloadRequirementsM2" }}</li>
+              <li>{{ i18n "downloadRequirementsM3" }}</li>
+              <li>{{ i18n "downloadRequirementsM4" }}</li>
+              <li>{{ i18n "downloadRequirementsM5" }}</li>
+              <li>{{ i18n "downloadRequirementsM6" }}</li>
               <li>&nbsp;</li>
             </ul>
-            <p><a href="https://auttogram.com.br/download/auttogram.dmg" class="btn btn-block button">Baixar</a></p>
+            <p><a href="https://auttogram.com.br/download/auttogram.dmg" class="btn btn-block button"><i class="fab fa-apple"></i> {{ i18n "downloadButton" }}</a></p>
           </div>
         </div>
       </div>

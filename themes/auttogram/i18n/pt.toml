@@ -4,6 +4,79 @@
 #
 #
 
+# Menu
+
+[menuHome]
+  other = "Início"
+
+[menuFeatures]
+  other = "Funcionalidades"
+
+[menuHelp]
+  other = "Central de Ajuda"
+
+[menuPricing]
+  other = "Preços"
+
+# Download
+
+[downloadTitle]
+  other = "Baixar o Auttogram"
+
+[downloadRequirements]
+  other = "Requisitos Mínimos"
+
+[downloadRequirementsW]
+  other = "Windows"
+
+[downloadRequirementsW1]
+  other = "Intel® Core™ 2 Duo ou"
+
+[downloadRequirementsW2]
+  other = "AMD Athlon™ 64 X2 5600+"
+
+[downloadRequirementsW3]
+  other = "Windows 7"
+
+[downloadRequirementsW4]
+  other = "Memória 2GB de RAM"
+
+[downloadRequirementsW5]
+  other = "5GB de espaço disponível em disco"
+
+[downloadRequirementsW6]
+  other = "Conexão com internet banda larga"
+
+[downloadRequirementsW7]
+  other = "Resolução 1280x1024"
+
+[downloadRequirementsM]
+  other = "Mac"
+
+[downloadRequirementsM1]
+  other = "Intel® Core™ 2 Duo"
+
+[downloadRequirementsM2]
+  other = "OS X® 10.11"
+
+[downloadRequirementsM3]
+  other = "Memória de 4GB de RAM"
+
+[downloadRequirementsM4]
+  other = "5GB de espaço disponível em disco"
+
+[downloadRequirementsM5]
+  other = "Conexão com internet banda larga"
+
+[downloadRequirementsM6]
+  other = "Resolução 1280x768"
+
+
+# Other
+
+[close]
+  other = "Fechar"
+
 [learnMore]
   other = "Saiba mais"
 
@@ -54,7 +127,7 @@
   other = "Melhor custo-benefício"
 
 [homeFeaturedItem3]
-  other = "Alcance excelentes resultados por apenas R$ 9,90/mês para cada perfil."
+  other = "Alcance excelentes resultados pelo melhor preço disponível no mercado."
 
 # Home - Module 3 - Automations
 
@@ -186,7 +259,7 @@
   other = "Suporte Online"
 
 [homePricingBoxItem10]
-  other = "Relatórios"
+  other = "Relatórios Básicos"
 
 [homeHelpCenterTitle]
   other = "Com dúvidas?"

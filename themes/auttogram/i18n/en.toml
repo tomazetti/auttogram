@@ -4,6 +4,18 @@
 #
 #
 
+[menuHome]
+  other = "Home"
+
+[menuFeatures]
+  other = "Features"
+
+[menuHelp]
+  other = "Help Center"
+
+[menuPricing]
+  other = "Pricing"
+
 [learnMore]
   other = "Learn More"
 
